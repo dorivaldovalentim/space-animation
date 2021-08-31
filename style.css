@@ -22,6 +22,7 @@ body {
 	border-radius: 50%;
 	border: 1px solid white;
 	background-color: white;
+	transition: all 1s;
 }
 
 .moon {
