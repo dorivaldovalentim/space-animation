@@ -33,14 +33,28 @@ body {
 	top: 50px;
 	right: 150px;
 	border-radius: 50%;
-	filter:
-		blur(5px)
-		drop-shadow(0 0 10px black)
-		drop-shadow(0 0 300px white)
-	;
-	box-shadow: 0 0 10px white;
+	animation: moon 1s alternate infinite linear;
 }
 
-@keyframes star {
-	0% {}
+@keyframes moon {
+	0% {
+		filter:
+			blur(5px)
+			drop-shadow(0 0 10px black)
+			drop-shadow(0 0 300px white)
+	}
+
+	50% {
+		filter:
+			blur(5px)
+			drop-shadow(0 0 50px black)
+			drop-shadow(0 0 300px white)
+	}
+
+	100% {
+		filter:
+			blur(5px)
+			drop-shadow(0 0 90px black)
+			drop-shadow(0 0 300px white)
+	}
 }
