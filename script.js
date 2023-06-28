@@ -33,4 +33,4 @@ setInterval(() => {
 
 		star.style.transform = `translateX(${random_position.x}px) translateY(${random_position.y}px)`;
 	});
-}, 2000);
+}, 200);
